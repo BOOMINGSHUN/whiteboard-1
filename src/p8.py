@@ -42,7 +42,7 @@ def is_anagram(s1, s2):
     if len(s1) != len(s2):
         return False
 
-    # Frequency dictionary
+    # Frequency dictionary 
     freq = {}
 
     # Count characters in first string
